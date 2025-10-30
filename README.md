@@ -1,3 +1,3 @@
-Nivel 2 -  Desafio Maquetado
+Nivel 2 - Desafio Maquetado
 
-- URL de tu GitHub Page
+- https://juandaor99.github.io/desafio-maquetado/
