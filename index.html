@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./src/Juanda-logo.png" />
+    <title>Mi sitio - Juanda</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./src/Juanda-logo.png" alt="" class="header__logo" />
+      <div class="header__menu">
+        <img src="./src/menu.png" alt="" class="header__menu-icon" />
+        <div class="header__menu-container">
+          <a href="#section-1" class="header__menu-link">Quién soy</a>
+          <a href="#section-2" class="header__menu-link">Servcios</a>
+          <a href="#section-3" class="header__menu-link">Escríbeme</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__content">
+        <h1 class="main__content-title">Bienvenidxs a mi sitio</h1>
+        <img src="./src/jdorfoto.png" alt="" class="main__content-photo" />
+      </div>
+    </main>
+
+    <section id="section-1" class="section-1">
+      <div class="section-1__container">
+        <div class="section-1__content">
+          <h2 class="section-1__content-title">Soy Juanda</h2>
+          <p class="section-1__content-text">
+            Mi nombre es Juan David Osorio Rios. Soy Desarrollador de Software
+            Full-Stack Trainee con formación en Negocios Internacionales.
+            Después de trabajar en el mundo corporativo, encontré en la
+            tecnología una forma de unir mi pasión por aprender con el deseo de
+            crear soluciones que simplifiquen la vida de las personas. Me
+            apasiona la tecnología y cómo a través del desarrollo puedo
+            transformar ideas en soluciones reales. ¿Te gustaría crear algo
+            increíble juntos?
+          </p>
+        </div>
+
+        <div class="section-1__icon">
+          <img
+            src="./src/curriculum.png"
+            alt=""
+            class="section-1__icon-image"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="section-2" class="section-2">
+      <h2 class="section-2__title">Mis Servicios</h2>
+      <div class="section-2__container">
+        <div class="section-2__subcontainer">
+          <img
+            src="./src/development.png"
+            alt=""
+            class="section-2__subcontainer-image"
+          />
+          <h3 class="section-2__subcontainer-title">Desarrollo Web</h3>
+          <p class="section-2__subcontainer-text">
+            Diseño y programo aplicaciones web completas, desde la interfaz del
+            usuario hasta la lógica del servidor. Creo soluciones modernas
+            utilizando tecnologías como HTML y CSS, JavaScript y TypeScript,
+            React, Node.js
+          </p>
+        </div>
+        <div class="section-2__subcontainer">
+          <img
+            src="./src/estructura.png"
+            alt=""
+            class="section-2__subcontainer-image"
+          />
+          <h3 class="section-2__subcontainer-title">Integración de Sistemas</h3>
+          <p class="section-2__subcontainer-text">
+            Conecto y optimizo sistemas mediante APIs, bases de datos y
+            servicios en la nube. Automatizo procesos para mejorar la eficiencia
+            y el flujo de información entre diferentes plataformas.
+          </p>
+        </div>
+        <div class="section-2__subcontainer">
+          <img
+            src="./src/cloud-service.png"
+            alt=""
+            class="section-2__subcontainer-image"
+          />
+          <h3 class="section-2__subcontainer-title">
+            Despliegue y Mantenimiento
+          </h3>
+          <p class="section-2__subcontainer-text">
+            Implemento, mantengo y optimizo aplicaciones en entornos cloud,
+            aplicando buenas prácticas de seguridad, control de versiones y
+            rendimiento.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="section-3" class="section-3">
+      <h2 class="section-3__title">Escríbeme</h2>
+      <div class="section-3__form">
+        <fieldset class="section-3__fieldset">
+          <label for="name" class="section-3__fieldset-label">NOMBRE</label>
+          <input type="text" class="section-3__fieldset-input" id="name" />
+        </fieldset>
+
+        <fieldset class="section-3__fieldset">
+          <label for="email" class="section-3__fieldset-label">EMAIL</label>
+          <input type="email" class="section-3__fieldset-input" id="email" />
+        </fieldset>
+
+        <fieldset class="section-3__fieldset">
+          <label for="message" class="section-3__fieldset-label">MENSAJE</label>
+          <textarea
+            class="section-3__fieldset-input input--textarea"
+            id="message"
+          ></textarea>
+        </fieldset>
+
+        <button class="section-3__form-button">Enviar</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img src="./src/Juanda-logo.png" alt="" class="footer__logo-image" />
+          <p class="footer__logo-text">© 2025 Juan David O.R</p>
+        </div>
+
+        <div class="footer__redes">
+          <div class="footer__redes-logo">
+            <img
+              src="./src/instagram.svg"
+              alt=""
+              class="footer__redes-logo-image"
+            />
+            <p class="footer__redes-logo-name">
+              <a
+                href="https://www.instagram.com/juandaor99/#"
+                class="footer__redes-logo-anchor"
+                >Instagram</a
+              >
+            </p>
+          </div>
+          <div class="footer__redes-logo">
+            <img
+              src="./src/github.svg"
+              alt=""
+              class="footer__redes-logo-image"
+            />
+            <p class="footer__redes-logo-name">
+              <a
+                href="https://github.com/Juandaor99"
+                class="footer__redes-logo-anchor"
+                >Github</a
+              >
+            </p>
+          </div>
+          <div class="footer__redes-logo">
+            <img
+              src="./src/linkedin.svg"
+              alt=""
+              class="footer__redes-logo-image"
+            />
+            <p class="footer__redes-logo-name">
+              <a
+                href="https://www.linkedin.com/in/juandaor99/"
+                class="footer__redes-logo-anchor"
+                >Linkedin</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
